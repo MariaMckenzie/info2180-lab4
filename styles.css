@@ -1,0 +1,14 @@
+#s_name {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: grey;
+}
+
+main {
+  padding: 30px;
+}
