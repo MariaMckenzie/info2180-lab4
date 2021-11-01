@@ -60,13 +60,23 @@ $superheroes = [
       "name" => "Wanda Maximoff",
       "alias" => "Scarlett Witch",
       "biography" => "Notably powerful, Wanda Maximoff has fought both against and with the Avengers, attempting to hone her abilities and do what she believes is right to help the world.",
-  ], 
+  ],
 ];
 
-?>
+$jsonObj = json_encode($superheroes);
+//$bytes = file_put_contents("superheroes.json", $jsonObj);
+//echo "The number of bytes written are $bytes.";
 
+echo $jsonObj;
+/*
 <ul>
 <?php foreach ($superheroes as $superhero): ?>
   <li><?= $superhero['alias']; ?></li>
 <?php endforeach; ?>
 </ul>
+/*
+$key = $_REQUEST[];
+
+for()
+*/
+?>
