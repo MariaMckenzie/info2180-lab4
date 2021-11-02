@@ -60,13 +60,41 @@ $superheroes = [
       "name" => "Wanda Maximoff",
       "alias" => "Scarlett Witch",
       "biography" => "Notably powerful, Wanda Maximoff has fought both against and with the Avengers, attempting to hone her abilities and do what she believes is right to help the world.",
-  ], 
+  ],
 ];
 
-?>
 
-<ul>
+$key = $_REQUEST["query"];
+$hero = array();
+
+if ($key == ""){
+  foreach ($superheroes as $superhero){
+      array_push($hero,$superhero["alias"]);
+  }
+  $heroJSON = json_encode($hero);
+  echo $heroJSON;
+}
+else{
+  foreach ($superheroes as $superhero){
+    if ($superhero['name'] == $key or $superhero['alias'] == $key){
+      $hero = array($superhero['name'],$superhero['alias'],$superhero['biography']);
+    }
+  }
+  if (sizeof($hero)== 0){
+    $heroJSON = json_encode(array("Superhero not found!"));
+    echo $heroJSON;
+  }
+  else{
+    $heroJSON = json_encode($hero);
+    echo $heroJSON;
+  }
+}
+/*
+
+/*<ul>
 <?php foreach ($superheroes as $superhero): ?>
   <li><?= $superhero['alias']; ?></li>
 <?php endforeach; ?>
 </ul>
+*/
+?>
