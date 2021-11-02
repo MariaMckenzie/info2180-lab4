@@ -63,6 +63,7 @@ $superheroes = [
   ],
 ];
 
+<<<<<<< HEAD
 
 $key = $_REQUEST["query"];
 $hero = array();
@@ -92,9 +93,25 @@ else{
 /*
 
 /*<ul>
+=======
+$jsonObj = json_encode($superheroes);
+//$bytes = file_put_contents("superheroes.json", $jsonObj);
+//echo "The number of bytes written are $bytes.";
+
+echo $jsonObj;
+/*
+<ul>
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
 <?php foreach ($superheroes as $superhero): ?>
   <li><?= $superhero['alias']; ?></li>
 <?php endforeach; ?>
 </ul>
+<<<<<<< HEAD
+=======
+/*
+$key = $_REQUEST[];
+
+for()
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
 */
 ?>

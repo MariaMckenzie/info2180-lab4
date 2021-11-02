@@ -9,8 +9,14 @@
 }
 
 body {
+<<<<<<< HEAD
   align-content: center;
   background-color: #DAFEFA;
+=======
+  text-align: center;
+  align-content: center;
+  background-color: #FAC6BF;
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
   font-family: Verdana;
 }
 
@@ -19,15 +25,23 @@ main {
 }
 
 header {
+<<<<<<< HEAD
   text-align: center;
   background-color: #00B89F;
   color: #003931;
   padding-top: 50px;
   padding-bottom: 50px;
+=======
+  background-color: #F08080;
+  color: #002366;
+  padding-top: 30px;
+  padding-bottom: 30px;
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
   text-transform: uppercase;
 }
 
 .r_h {
+<<<<<<< HEAD
   border-bottom: 2px solid #003931;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -35,11 +49,21 @@ header {
   font-weight: bold;
   font-size: 20px;
   color: #003931;
+=======
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: #002366;
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
 }
 
 #form_input {
   padding-bottom: 20px;
+<<<<<<< HEAD
   padding-top: 50px;
+=======
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
 }
 
 .btn {
@@ -47,14 +71,25 @@ header {
   width: 120px;
   text-transform: uppercase;
   font-weight: bold;
+<<<<<<< HEAD
   color: #DAFEFA;
   border: solid 2px #003931;
   background-color: #003931;
+=======
+  color: white;
+  border: solid 2px #002366;
+  background-color: #002366;
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
   border-radius: 10px;
 }
 
 .result {
+<<<<<<< HEAD
   color: #003931;
+=======
+  color: #002366;
+  padding-top: 10px;
+>>>>>>> 0f4d9f5044679bda0cbc34c5891f1fadca93ef4d
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
